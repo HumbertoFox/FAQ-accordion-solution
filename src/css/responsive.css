@@ -1,0 +1,71 @@
+@media(max-width: 600px){
+    body {
+        justify-content: flex-start;
+    }
+    
+    .main {
+        width: 375px;
+        min-height: 100vh;
+        justify-content: flex-start;
+        background: url(../assets/images/background-pattern-mobile.svg) no-repeat var(--Light-pink);
+        padding: 143px 25px 0 25px;
+        margin: 0 auto;
+    }
+
+    .section-main {
+        min-height: 420px;
+        padding: 23px 23px 0 23px;
+        border-radius: 10px;
+    }
+
+    .div-h1 img {
+        width: 25px;
+    }
+
+    .div-h1 h1 {
+        font-size: 34px;
+        letter-spacing: -2px;
+        padding-left: 24px;
+    }
+
+    .ul-questions li h2 {
+        font-size: 16px;
+        font-weight: 700;
+        padding-right: 50px;
+    }
+
+    .ul-questions li:nth-child(2) h2 {
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+
+    .ul-questions li:nth-child(3) h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .ul-questions li:nth-child(4) h2 {
+        padding-top: 19px;
+        padding-bottom: 26px;
+    }
+
+    .ul-questions li h2.active {
+        padding-top: 23px;
+        padding-bottom: 26px;
+    }
+    
+    .ul-questions li h2.active::before {
+        top: 26px;
+    }
+
+    .ul-questions li h2::after {
+        top: 22px;
+        right: 0;
+    }
+
+    .ul-questions li p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 18px;
+    }
+}
