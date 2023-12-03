@@ -25,6 +25,7 @@ body {
     background-color: var(--White);
     padding: 40px;
     border-radius: 15px;
+    box-shadow: 0 20px 50px hsla(292, 42%, 14%, .1);
 }
 
 .div-h1 {
